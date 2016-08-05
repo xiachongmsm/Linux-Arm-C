@@ -1,2 +1,2 @@
 # Linux-Arm-C
-This is my note for coding.
+This is my code in Linux with C/C++.
