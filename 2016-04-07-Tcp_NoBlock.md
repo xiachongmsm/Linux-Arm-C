@@ -15,7 +15,22 @@
 		6.进入死循环while（1），在循环中先是将缓存清零，再读取客户机发来的信息，判断是否读取结束，之后再将接收到的消息返回给客户机。
 		7.如此循环，直到客户机关闭套接字，服务器自动停止。
 		*/
-
+		#include <netdb.h>
+		#include <sys/socket.h>
+		#include <errno.h>
+		#include <netinet/in.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <unistd.h>
+		#include <sys/mman.h>
+		#include <stdio.h>
+		#include <string.h>
+		#include <stdlib.h>
+		#include <pthread.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <fcntl.h>	//...用于设置套接字为非阻塞...//
+		#include <math.h>
 		# define MAXLEN 1024
 		int main()
 		{
@@ -154,7 +169,16 @@
 		4.循环两次给服务器发送“I am client”，并接受服务器返回信息。
 		5.关闭套接字，断开与服务器的连接。
 		*/
-
+		#include<stdio.h>
+		#include<sys/types.h>
+		#include<arpa/inet.h>
+		#include<unistd.h>
+		#include<stdlib.h>
+		#include<string.h>
+		#include<errno.h>
+		#include<unistd.h>
+		#include<sys/socket.h>
+		#include<netinet/in.h>
 		int main()
 		{
 			int socket_fd;
