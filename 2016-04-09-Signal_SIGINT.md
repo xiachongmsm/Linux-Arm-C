@@ -2,7 +2,6 @@
 * `category`:`信号处理`
 * `tags`:`Linux` `C` `Signal`<br>
 ## Signal_SIGINT
-
     本程序是Linux系统中对于系统内核产生信号的基本处理方法。
     实现的功能是通过函数接收键盘按下“Ctrl+C”时产生的SIGINT信号。
     流程：
