@@ -12,7 +12,7 @@
 		4.将套接字设置为非阻塞
 		5.进入死循环while（1），在循环中先是将缓存清零，再读取客户机发来的信息，之后将信息发送回客户端。
 		6.当收到“close”时，关闭套接字，服务器自动停止。
-		
+
 ```C
 #include<stdio.h>
 #include <errno.h>
@@ -93,6 +93,7 @@ int main()
 ## client
 * `category`:`网络编程`
 * `tags`:`Linux` `C` `socket`
+
 		本程序是UDP协议客户机的最简单框架.
 		实现的功能是发送“close”给服务器，然后从服务器接受服务器返回的信息并打印出来。
 		流程：
@@ -100,6 +101,7 @@ int main()
 		2.初始化协议地址结构（包括协议族，本地地址，端口号）
 		3.给服务器发送“close”，并接受服务器返回信息“close”。
 		4.关闭套接字。
+		
 ```C
 #include<stdio.h>
 #include<sys/types.h>
