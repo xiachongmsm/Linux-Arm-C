@@ -1,11 +1,13 @@
 #Linux系统中的多线程编程-条件变量和互斥锁
 * `category`:`多线程`
-* `tags`:`Linux` `C` `Thread`\<br>  
+* `tags`:`Linux` `C` `Thread`
+
     本程序是Linux系统中线程的创建以及条件变量和互斥所的使用。
     实现的功能是创建两个线程，一个线程休眠，用另一个线程唤醒该线程。
     流程：
     1.建立两个线程，一个处于休眠状态(thrd_sleep)，另一个处于活跃状态(thrd_wakeup)
     2.通过使用条件变量和互斥锁，定义wait_flag和wakeup_flag函数，在活跃线程中唤醒休眠线程
+    
 ```C
 #include <stdio.h>
 #include <stdlib.h>

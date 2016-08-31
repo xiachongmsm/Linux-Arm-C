@@ -1,11 +1,13 @@
 #Linux系统中的当前日期&时间的获取
 * `category`:`系统`
-* `tags`:`Linux` `C` `date`\<br>  
+* `tags`:`Linux` `C` `date`
+
     本程序是用于Linux系统中时间的获取和装订输出
     实现的功能是将ctime结构体中的日期和时间的对应项进行格式化处理。
     流程：
     1.使用time()和ctime()函数得到的日期的格式为Tue Oct 13 07:24:04 2015
     2.将日期格式调整成为2015,10,13,07:24:04.000 或2015,10,13,072404.000
+    
 ```C
 #include <stdio.h>
 #include <time.h>

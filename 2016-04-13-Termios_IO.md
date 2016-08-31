@@ -1,12 +1,14 @@
 #Linux系统中的串口收发
 * `category`:`串口`
-* `tags`:`Linux` `C` `Termios`\<br>  
+* `tags`:`Linux` `C` `Termios`
+
     本程序是Linux系统中串口首发的基本框架。
     实现的功能是通过串口接收数据并将接收到的数据发回。
     流程：
     1.打开串口，在打开之前，需要对想要控制的串口，在终端中键入：sudo chmod 777 /dev/ttyS0
     2.将串口配置的结构体与描述符绑定，并进行工作模式设置，处理未写入的数据并激活串口。
     3.串口收发都使用接收集进行控制。
+    
 ```C
 #include   <stdio.h>
 #include   <stdlib.h>

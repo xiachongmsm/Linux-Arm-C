@@ -1,6 +1,7 @@
 #Linux系统中对文件读写
 * `category`:`文件操作`
-* `tags`:`Linux` `C` `File`\<br>  
+* `tags`:`Linux` `C` `File`
+
     本程序是Linux系统中对于文件读写/修改等基本操作。
     实现的功能是检查系统中是否存在配置文件config.txt.如果存在，读取其中的内容并输出。
     如果不存在，新建config.txt并写入内容。
@@ -8,6 +9,7 @@
     1.使用access()判断文件是否存在，如果不存在，新建文件config.txt，并写入内容"I am config.txt"。
     2.如果文件存在，使用fopen+fread+fclose函数实现文件的打开读取和关闭。
     3.使用fseek+ftell+rewind函数，通过得到文件的大小，读取文件的内容并输出。
+    
 ```C
 #include <stdio.h>
 #include <stdlib.h>
