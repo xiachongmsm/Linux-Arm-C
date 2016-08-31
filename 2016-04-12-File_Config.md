@@ -1,6 +1,6 @@
 #Linux系统中对文件读写
 * `category`:`文件操作`
-* `tags`:`Linux` `C` `File`
+* `tags`:`Linux` `C` `File`\<br>  
     本程序是Linux系统中对于文件读写/修改等基本操作。
     实现的功能是检查系统中是否存在配置文件config.txt.如果存在，读取其中的内容并输出。
     如果不存在，新建config.txt并写入内容。

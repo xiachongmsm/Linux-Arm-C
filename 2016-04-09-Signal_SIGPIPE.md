@@ -1,6 +1,6 @@
 # Linux系统中的信号处理函数-Signal_SIGPIPE
 * `category`:`信号处理`
-* `tags`:`Linux` `C` `Signal` `Socket`
+* `tags`:`Linux` `C` `Signal` `Socket`\<br>  
     本程序是Linux系统中对于系统内核产生信号SIGPIPE的处理方法。
     基于TCP协议的Socket连接建立后，若某一端关闭连接，而另一端仍然向它写数据。
     第一次写数据后会收到RST响应，此后再写数据，内核将向进程发出SIGPIPE信号，通知进程此连接已经断开。

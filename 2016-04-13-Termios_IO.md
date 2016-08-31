@@ -1,6 +1,6 @@
 #Linux系统中的串口收发
 * `category`:`串口`
-* `tags`:`Linux` `C` `Termios`
+* `tags`:`Linux` `C` `Termios`\<br>  
     本程序是Linux系统中串口首发的基本框架。
     实现的功能是通过串口接收数据并将接收到的数据发回。
     流程：

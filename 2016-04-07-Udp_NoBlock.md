@@ -1,6 +1,6 @@
 # UDP协议下的典型服务器(接收非阻塞)和客户端
 * `category`:`网络编程`
-* `tags`:`Linux` `C` `socket`
+* `tags`:`Linux` `C` `socket`\<br>  
 ## server
 		本程序是UDP协议服务器的最简单框架。
 		实现的功能是接收客户机发来的信息并把收到信息发回客户端，并打印出来。
@@ -86,7 +86,7 @@ int main()
 	close(fd);
 	return(0);
 }
-```C
+```
 
 ## client
 * `category`:`网络编程`
@@ -149,4 +149,4 @@ int main()
 	close(fd);
 	return 0;
 }
-```C
+```

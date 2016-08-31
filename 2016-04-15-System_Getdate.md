@@ -1,6 +1,6 @@
 #Linux系统中的当前日期&时间的获取
 * `category`:`系统`
-* `tags`:`Linux` `C` `date`
+* `tags`:`Linux` `C` `date`\<br>  
     本程序是用于Linux系统中时间的获取和装订输出
     实现的功能是将ctime结构体中的日期和时间的对应项进行格式化处理。
     流程：

@@ -1,6 +1,6 @@
 #Linux系统中的多线程编程-条件变量和互斥锁
-* category:多线程
-* tags:Linux C Thread
+* `category`:`多线程`
+* `tags`:`Linux` `C` `Thread`\<br>  
     本程序是Linux系统中线程的创建以及条件变量和互斥所的使用。
     实现的功能是创建两个线程，一个线程休眠，用另一个线程唤醒该线程。
     流程：
