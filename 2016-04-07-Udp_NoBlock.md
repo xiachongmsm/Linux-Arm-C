@@ -101,7 +101,7 @@ int main()
 		2.初始化协议地址结构（包括协议族，本地地址，端口号）
 		3.给服务器发送“close”，并接受服务器返回信息“close”。
 		4.关闭套接字。
-		
+
 ```C
 #include<stdio.h>
 #include<sys/types.h>
