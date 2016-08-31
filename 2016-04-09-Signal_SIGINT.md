@@ -4,8 +4,8 @@
 
 >本程序是Linux系统中对于系统内核产生信号的基本处理方法。<br>
 实现的功能是通过函数接收键盘按下“Ctrl+C”时产生的SIGINT信号。<br>
->>流程：
-1.声明信号处理函数handle_sig并注册<br>
+流程：<br>
+>>1.声明信号处理函数handle_sig并注册<br>
 2.休眠20s，如果始终没有按下“Ctrl+C”，程序正常退出<br>
 3.如果在20s以内按下“Ctrl+C”，则进入函数handle_sig，输出“Ctrl + C is down.”，并退出<br>
 

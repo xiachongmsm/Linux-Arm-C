@@ -9,8 +9,8 @@
 为避免此情况发生，可以使用类似“2016-04-09-Signal_SIGINT.md”提到的，使用注册信号处理函数来处理。<br>
 此情况下，直接使用语句“signal(SIGPIPE, SIG_IGN)”即可。<br>
 也可以使用本文中的方法，通过使用信号屏蔽集的方法进行处理。<br>
->>流程：
-1.清空信号掩码集 sigset<br>
+流程：<br>
+>>1.清空信号掩码集 sigset<br>
 2.将 SIGPIPE 信号放入信号集 sigset 中<br>
 3.将信号集含有SIGPIPE的信号集sigset屏蔽<br>
 

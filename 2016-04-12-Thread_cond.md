@@ -2,12 +2,12 @@
 * `category`:`多线程`
 * `tags`:`Linux` `C` `Thread`
 
-    本程序是Linux系统中线程的创建以及条件变量和互斥所的使用。
-    实现的功能是创建两个线程，一个线程休眠，用另一个线程唤醒该线程。
-    流程：
-    1.建立两个线程，一个处于休眠状态(thrd_sleep)，另一个处于活跃状态(thrd_wakeup)
-    2.通过使用条件变量和互斥锁，定义wait_flag和wakeup_flag函数，在活跃线程中唤醒休眠线程
-    
+>本程序是Linux系统中线程的创建以及条件变量和互斥所的使用。<br>
+实现的功能是创建两个线程，一个线程休眠，用另一个线程唤醒该线程。<br>
+流程：<br>
+>>1.建立两个线程，一个处于休眠状态(thrd_sleep)，另一个处于活跃状态(thrd_wakeup)<br>
+2.通过使用条件变量和互斥锁，定义wait_flag和wakeup_flag函数，在活跃线程中唤醒休眠线程<br>
+
 ```C
 #include <stdio.h>
 #include <stdlib.h>
