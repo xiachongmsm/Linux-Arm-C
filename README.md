@@ -14,7 +14,7 @@
 
     Email：zhulei0207@126.com
 
-    github：https://github.com/xiachongmsm
+    github：https://github.com/xiachongmsm/Linux-Arm-C
 
 ##教育经历
 
